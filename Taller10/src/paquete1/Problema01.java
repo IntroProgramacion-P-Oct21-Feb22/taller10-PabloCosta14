@@ -7,7 +7,7 @@ package paquete1;
 
 /**
  *
- * @author reroes
+ * @author PabloCosta14
  */
 public class Problema01 {
 
@@ -27,7 +27,7 @@ public class Problema01 {
         for (fila = 0; fila < nombresEstudiantes.length; fila++) {
             suma = 0;
 
-            for (columna = 0; columna <= notas.length; columna++) {
+            for (columna = 0; columna < notas[fila].length; columna++) {
                 suma = suma + notas[fila][columna];
 
             }

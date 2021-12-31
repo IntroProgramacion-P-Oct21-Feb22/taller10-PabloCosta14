@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author reroes
+ * @author PabloCosta14
  */
 public class Problema04 {
 
@@ -22,7 +22,7 @@ public class Problema04 {
         int fila;
         int columna;
         double dato;
-        String cadena = "";
+        //String cadena = "";
         for (fila = 0; fila < datos.length; fila++) {
 
             for (columna = 0; columna < datos.length; columna++) {
@@ -36,7 +36,7 @@ public class Problema04 {
                 /*cadena = String.format("%sLos valores por teclado ingresados en"
                         + "[%s][%s] son %s\n",
                         cadena, fila, columna, datos[fila][columna]);
-                 Estas lineas comentadas sirven para comprobar los valores ingresador al arreglo
+                 Estas lineas comentadas sirven para comprobar los valores ingresados al arreglo
                  */
             }
         }

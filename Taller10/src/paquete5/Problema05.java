@@ -7,7 +7,7 @@ package paquete5;
 
 /**
  *
- * @author reroes
+ * @author PabloCosta14
  */
 public class Problema05 {
 
@@ -19,21 +19,23 @@ public class Problema05 {
         };
         int fila;
         int columna;
-        
+        String cadena = "";
+
         for (fila = 0; fila < estudiantes.length; fila++) {
 
             for (columna = 0; columna < estudiantes[fila].length; columna++) {
 
                 char inicial = estudiantes[fila][columna].charAt(0);
                 String inicialDos = String.valueOf(inicial);
-                if (inicialDos.equals("S") ||inicialDos.equals("P")||
-                        inicialDos.equals("T") ){ 
-                    
-                        System.out.println(estudiantes[fila][columna]);
-                
+                if (inicialDos.equals("S") || inicialDos.equals("P")
+                        || inicialDos.equals("T")) {
+
+                    cadena = String.format("%s%s\n", cadena,
+                            estudiantes[fila][columna]);
 
                 }
             }
         }
+        System.out.println(cadena);
     }
 }

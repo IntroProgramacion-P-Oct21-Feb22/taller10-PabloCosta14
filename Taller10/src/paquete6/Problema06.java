@@ -7,7 +7,7 @@ package paquete6;
 
 /**
  *
- * @author reroes
+ * @author PabloCosta14
  */
 public class Problema06 {
 
@@ -18,23 +18,20 @@ public class Problema06 {
         {"Emma Escobar", "Lori Flores"},
         {"Steven West", "Toni Martin"}
         };
-         int fila;
+        int fila;
         int columna;
-        
+
         for (fila = 0; fila < estudiantes.length; fila++) {
 
             for (columna = 0; columna < estudiantes[fila].length; columna++) {
 
-              
-                
-               // if (estudiantes.length = 11) { 
-                    
-                        System.out.println(estudiantes.length);
-                
+                if (estudiantes[fila][columna].length() == 11) {
+
+                    System.out.println(estudiantes[fila][columna]);
 
                 }
             }
         }
-        
-    }
 
+    }
+}

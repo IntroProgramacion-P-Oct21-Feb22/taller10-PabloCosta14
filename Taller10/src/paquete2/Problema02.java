@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author reroes
+ * @author PabloCosta14
  */
 public class Problema02 {
 
@@ -28,10 +28,7 @@ public class Problema02 {
         for (fila = 0; fila < vendedores.length; fila++) {
 
             for (columna = 0; columna < 5; columna++) {
-                System.out.printf("Ingrese el valor de venta que se almacenara "
-                        + "en [%s][%s]",
-                        fila,
-                        columna);
+                System.out.printf("Ingrese el valor de venta total del dia\n");
                 venta = entrada.nextDouble();
                 ventas[fila][columna] = venta;
                 suma = suma + ventas[fila][columna];
