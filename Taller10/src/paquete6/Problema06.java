@@ -20,6 +20,7 @@ public class Problema06 {
         };
         int fila;
         int columna;
+        String cadena = "";
 
         for (fila = 0; fila < estudiantes.length; fila++) {
 
@@ -27,11 +28,12 @@ public class Problema06 {
 
                 if (estudiantes[fila][columna].length() == 11) {
 
-                    System.out.println(estudiantes[fila][columna]);
+                    cadena = String.format("%s%s\n", cadena,
+                            estudiantes[fila][columna]);
 
                 }
             }
         }
-
+        System.out.println(cadena);
     }
 }

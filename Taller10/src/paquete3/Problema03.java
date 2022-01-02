@@ -53,9 +53,9 @@ public class Problema03 {
         8 - 9.5   Muy Buena
         9.6 - 10  Sobresaliente  
                  */
-                System.out.printf("Las notas Cualitativas de la posicion "
-                        + "[%s][%s] son %s\n",
-                        fila, columna, notasCualitativas[fila][columna]);
+                //System.out.printf("Las notas Cualitativas de la posicion "
+                //      + "[%s][%s] son %s\n",
+                //   fila, columna, notasCualitativas[fila][columna]);
             }
 
         }
